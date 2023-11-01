@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body class="font-Hanken-Grotesk">
+
+  <div class="sm:flex sm:justify-center sm:items-center">
+    <div class="sm:m-32 sm:flex sm:shadow-2xl shadow-paleBlue sm:rounded-3xl md:w-1/2 xl:w-2/5">
+      <!-- first-section -->
+      <div class="border-solid text-center bg-gradient-to-t from-lightRoyalBlue to-lightSlateBlue rounded-b-3xl sm:rounded-3xl sm:w-72 w-screen">
+        <!-- heading -->
+        <div class="pt-10">
+          <h1 class="font-semibold text-lightLavender text-2xl">Your Result</h1>
+        </div>
+        <!-- circle -->
+        <div class="flex justify-center items-center py-3 mt-6">
+          <div class="rounded-full w-36 h-36 bg-gradient-to-t from-persianBlue to-violetBlue">
+            <div class="py-10">
+              <h1 class="text-white font-extrabold text-6xl">76</h1>
+              <p class="text-lightLavender font-semibold">of 100</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- end of circle -->
+        <div class="py-3">
+          <h2 class="font-semibold text-2xl text-white">Great</h2>
+        </div>
+        <div class="flex justify-center items-center pb-10">
+          <div class="w-72 sm:w-56">
+            <p class="font-bold text-lightLavender sm:font-medium sm:text-white">You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end of first-section -->
+      <div class="px-6">
+        <div class="py-5 sm:py-10">
+          <h2 class="font-semibold text-2xl">Summary</h2>
+        </div>
+        <!-- columns -->
+        <div>
+          <!-- first-column -->
+          <div class="flex rounded-lg py-5 sm:py-2 mb-4 sm:mb-3 bg-lightRed">
+            <img class="pl-3" src="/assets/images/icon-reaction.svg" alt="reaction">
+            <p class="pl-1 text-red-400 font-bold">Reaction</p>
+            <div>
+              <p class="pl-32 sm:pl-12 font-bold">80 <span class="font-bold text-gray-400">/ 100</span></p>
+            </div>
+          </div>
+          <!-- end of first-column -->
+          <div class="flex rounded-lg py-5 sm:py-2 mb-4 sm:mb-3 bg-orangeyYellow">
+            <img class="pl-3" src="/assets/images/icon-memory.svg" alt="memory">
+            <p class="pl-1 text-yellow-300 font-bold">Memory</p>
+            <div class="pl-32 sm:pl-12">
+              <p class="font-bold">92 <span class="font-bold text-gray-400">/ 100</span></p>
+            </div>
+          </div>
+          <!-- end of second-column -->
+          <div class="flex rounded-lg py-5 sm:py-2 mb-4 sm:mb-3 bg-greenTeal">
+            <img class="pl-3" src="/assets/images/icon-verbal.svg" alt="verbal">
+            <p class="pl-1 text-green-300 font-bold">Verbal</p>
+            <div class="pl-36 sm:pl-12 sm:ml-4 pr-4">
+              <p class="font-bold">61 <span class="font-bold text-gray-400">/ 100</span></p>
+            </div>
+          </div>
+          <!-- end of third-column -->
+          <div class="flex rounded-lg py-5 sm:py-2 mb-4 sm:mb-3 bg-cobaltBlue">
+            <img class="pl-3" src="/assets/images/icon-visual.svg" alt="visual">
+            <p class="pl-1 text-blue-800 font-bold">Visual</p>
+            <div class="pl-36 sm:pl-12 sm:ml-4 pr-4">
+              <p class="font-bold">72 <span class="font-bold text-gray-400">/ 100</span></p>
+            </div>
+          </div>
+          <!-- end of fourth-column -->
+        </div>
+        
+        <div class="flex justify-center items-center pt-5">
+          <div class="bg-darkGrayBlue rounded-3xl mb-9">
+            <button class="text-white text-center w-80 h-14  sm:w-64 sm:h-12 font-semibold">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" mb-5">
+      <p class="text-sm sm:italic sm:text-base">Challenge by <a class="text-attribution" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="text-attribution" href="#">Fredrick Okotie</a>.
+      </p>
+      
+    </div> 
+  </div>
+  
+  
+  
+</body>
+</html>
