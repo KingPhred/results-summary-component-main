@@ -674,16 +674,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -739,16 +729,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
@@ -759,6 +739,11 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.text-attribution{
+  --tw-text-opacity: 1;
+  color: hsl(228 45% 44% / var(--tw-text-opacity));
 }
 
 .text-blue-800{
@@ -794,11 +779,6 @@ video {
 .text-yellow-300{
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
-}
-
-.text-attribution{
-  --tw-text-opacity: 1;
-  color: hsl(228 45% 44% / var(--tw-text-opacity));
 }
 
 .shadow-paleBlue{
@@ -876,14 +856,6 @@ video {
 
   .sm\:font-medium{
     font-weight: 500;
-  }
-
-  .sm\:font-light{
-    font-weight: 300;
-  }
-
-  .sm\:font-bold{
-    font-weight: 700;
   }
 
   .sm\:italic{
